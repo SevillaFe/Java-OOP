@@ -38,26 +38,5 @@ More information in the Wikipedia article: https://es.wikipedia.org/wiki/Modelo%
 
 To define the name of the packages, we have used the convention recommended by Oracle in the Java tutorials web: https://docs.oracle.com/javase/tutorial/java/package/namingpkgs.html.
 
-__Environment:__
-The following environment is used:
-- JDK >= 13
-- Eclipse >= 2019-12 (4.14.0) 
 
-__Dependencies:__
-The following libraries are used:
-- JUnit 5
-- JavaFX 11 (no need to have it configured in the project from the beginning) 
-
-__Project structure__
-If you open with Eclipse the project provided with this statement, you will see that, in the Package Explorer window, several directories appear:
-
-- doc: contains the Javadoc documentation of the finished project. Open the index.html file in a web browser to see the program documentation.
-
-- src: has three packages. Concretely we will have three packages called model, view (divided in cmd and gui) and controller. We have organized it this way because, as we have commented previously, in this practice we will use the MVC pattern.
-
-- images: contains the images that will be used in the graphical view (view.gui).
-
-- levels: contains the configuration files for each of the levels/rooms of the program.
-levels/rooms of the program.
-
-Thanks to the UOC (Open University of Catalonia).
+##__Thanks to the UOC (Open University of Catalonia).__
