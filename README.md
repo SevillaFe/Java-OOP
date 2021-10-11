@@ -4,14 +4,14 @@ The aim is to:
 - Know how to analyze a given problem and code a solution from a UML class diagram and specifications, following the object-oriented programming paradigm.
 - You will face a medium size program based on an architectural pattern such as MVC (Model-View-Controller).
 
-Learning achievements
+**Learning achievements**
 - Code a program based on an architecture pattern such as MVC (Model-View-Controller).
 - Perform some tasks related to the creation of graphical interfaces for a Java program.
 - Use, in a basic way, event-driven programming.
 - Use test files in JUnit to determine that a program is correct.
 - Use with some fluency an integrated development environment (IDE) such as Eclipse.
 
-Waterfall methodology
+**Waterfall methodology**
 
 The requirements analysis stage consists of gathering the needs of the product/customer. The result of this stage is usually a text document written by the development team (headed by the analyst) that describes the needs that the team has understood the customer needs. It is not always easy to understand what the customer wants. This document is usually signed by the customer and is "contractual".
 
@@ -23,32 +23,32 @@ Once the product is finished, it goes to the testing stage. In this stage, diffe
 
 The last stage, maintenance, starts when the product is finished. Although a product is finished, and no matter how many tests have been done, there are always errors (bugs) that must be fixed a posteriori.
 
-MVC (Model- View-Controller)
+**MVC (Model- View-Controller**
 The MVC standard is widely used today, especially in the web world. MVC attempts to separate three key elements of a program:
 
-Model: represents the program's information. In many programs this part falls on a database and the classes that access it. The model is responsible for inserting, updating, deleting and querying program information, as well as controlling access privileges to that data. An alternative to the database is the use of text and/or binary files.
+__Model__: represents the program's information. In many programs this part falls on a database and the classes that access it. The model is responsible for inserting, updating, deleting and querying program information, as well as controlling access privileges to that data. An alternative to the database is the use of text and/or binary files.
 
-View: is the set of "screens" that configure the interface with which the user interacts. Each "screen" or view can be from a command line interface to a graphic interface, differentiating between mobile, tablet, computer, etc. Each view usually has a visual and an interactive part. The latter is responsible for receiving inputs/events from the user (e.g. click on a button) and communicating with the program controller(s) to request information or to report any changes made by the user. In addition, depending on the information received by the controller(s), it modifies the visual part accordingly.
+__View__: is the set of "screens" that configure the interface with which the user interacts. Each "screen" or view can be from a command line interface to a graphic interface, differentiating between mobile, tablet, computer, etc. Each view usually has a visual and an interactive part. The latter is responsible for receiving inputs/events from the user (e.g. click on a button) and communicating with the program controller(s) to request information or to report any changes made by the user. In addition, depending on the information received by the controller(s), it modifies the visual part accordingly.
 
-Controller: is the part that controls the business logic. It acts as an intermediary between the view and the model. For example, by means of a user request (e.g. clicking a button), the view -through its interactive part- asks the controller to give it the list of items that the software has; the controller requests this information to the model, which provides it; the controller sends the information to the view, which is in charge of processing (i.e. interactive part) and displaying (i.e. visual part) the information received by the controller.
+__Controller__: is the part that controls the business logic. It acts as an intermediary between the view and the model. For example, by means of a user request (e.g. clicking a button), the view -through its interactive part- asks the controller to give it the list of items that the software has; the controller requests this information to the model, which provides it; the controller sends the information to the view, which is in charge of processing (i.e. interactive part) and displaying (i.e. visual part) the information received by the controller.
 
 Thanks to the MVC pattern, the three parts are decoupled. This allows that having the same model and the same controller, the view can be modified without altering the other two parts. Likewise, if we change the model (e.g. change the database manager from MySQL to Oracle), the controller and the views should not be affected. The same if we change the controller. Thus, using the MVC pattern minimizes the impact of future changes and improves program maintenance. 
 
 More information in the Wikipedia article: https://es.wikipedia.org/wiki/Modelo%E2%80%93vista%E2%80%93controlador.
 
-To define the name of the packages, we have used the convention recommended by Oracle in the Java tutorials web: https://docs.oracle.com/javase/tutorial/java/package/namingpkgs.html. 
+To define the name of the packages, we have used the convention recommended by Oracle in the Java tutorials web: https://docs.oracle.com/javase/tutorial/java/package/namingpkgs.html.
 
-Environment:
+__Environment:__
 The following environment is used:
 - JDK >= 13
 - Eclipse >= 2019-12 (4.14.0) 
 
-Dependencies:
+__Dependencies:__
 The following libraries are used:
 - JUnit 5
 - JavaFX 11 (no need to have it configured in the project from the beginning) 
 
-Project structure:
+__Project structure__
 If you open with Eclipse the project provided with this statement, you will see that, in the Package Explorer window, several directories appear:
 
 - doc: contains the Javadoc documentation of the finished project. Open the index.html file in a web browser to see the program documentation.
